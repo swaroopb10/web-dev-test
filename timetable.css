@@ -1,0 +1,27 @@
+table{
+    width: 600px;
+    background-color: honeydew;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.row{
+    background-color: chartreuse;
+}
+th, td{
+    padding: 5px;
+}
+tr:nth-child(even){
+    background-color: rgb(194, 192, 192);
+}
+body{
+    background-color: rgb(119, 110, 240);
+    
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
